@@ -366,9 +366,8 @@ font-size: 0.9rem;
         font-weight: 100;
     }
     .facility .content{
-        margin: auto;
-/*         margin-top: 5%;
-        margin-left: 4%; */
+        margin-top: 5%;
+        margin-left: 1%;
         height: 100%;
         width: 100%;
         display: block;
