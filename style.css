@@ -54,7 +54,7 @@ box-sizing: border-box;
 .home{
     height: 100vh;
     width: 100%;
-    background: url(/whiteFashion2.jpg);
+    background: url(./whiteFashion2.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -300,21 +300,21 @@ font-size: 0.9rem;
     color: rgb(29, 29, 255);
     font-size: 15px;
 }
+
 .container, .home, .facility, .works, .contact, .footer {
     width: 100%;
     max-width: 100%;
-    overflow-x: hidden; /* Hide overflow for specific sections */
+    overflow-x: hidden; /* Hide overflow for specific sections* */
 }
-
-/* .portfolio{
+ /*.portfolio{
     color: #ffffff;
     font-style: italic; 
     font-size: 0.8rem;  
-} */
+}
 
 /*responsive design*/
 
-@media(max-width:780px){
+@media (max-width:780px){
     .nav-links{
         display: none;
         position: absolute;
@@ -376,6 +376,14 @@ font-size: 0.9rem;
         padding: 10px 20px;
     }
 
+    /* AI
+    .facility .box {
+        margin-bottom: 20px;
+    }
+    .works-grid {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    } */
+
 
     /* .about-content{
         flex-direction: column;
@@ -397,3 +405,60 @@ font-size: 0.9rem;
         justify-content: center;
     }
 }
+
+
+
+
+
+
+
+/* .home .content h2 {
+    font-size: 24px;
+}
+
+.home .content p {
+    font-size: 14px;
+}
+
+.facility .content {
+    flex-direction: column;
+}
+
+.facility .box {
+    margin-bottom: 20px;
+}
+
+.works-grid {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
+
+.contact-form {
+    width: 100%;
+}
+
+.footer {
+    padding: 10px;
+}
+}
+
+@media (max-width: 480px) {
+.home .content h2 {
+    font-size: 20px;
+}
+
+.home .content p {
+    font-size: 12px;
+}
+
+.works-grid {
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+}
+
+.contact-form input, .contact-form textarea {
+    font-size: 14px;
+}
+
+.submit-btn {
+    font-size: 14px;
+}
+} */
