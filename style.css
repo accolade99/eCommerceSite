@@ -300,6 +300,12 @@ font-size: 0.9rem;
     color: rgb(29, 29, 255);
     font-size: 15px;
 }
+.container, .navbar, .home, .facility, .works, .contact, .footer {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden; /* Hide overflow for specific sections */
+}
+
 /* .portfolio{
     color: #ffffff;
     font-style: italic; 
