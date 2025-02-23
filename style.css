@@ -37,7 +37,8 @@ box-sizing: border-box;
     padding: 0.5rem 0;
 }
 .nav-links a i{
-    font-size: 1.1rem;
+    font-size: 0.6rem;
+    margin-left: 20px;
 }
 .nav-links a:hover{
     color: rgb(150, 99, 6);
